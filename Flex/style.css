@@ -1,0 +1,28 @@
+.noticias{
+    margin: auto;
+    width: 1200px;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.image{
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    margin: auto;
+}
+.noticia{
+    width: 300px;
+    text-align: justify;
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid darkslategray;
+    background-color: #ebeb75;
+    color: #002a15;
+}
+.noticia h2{
+    text-align: center;
+}
