@@ -1,9 +1,11 @@
 body{
     background: linear-gradient(35deg,#000533,#FFE382);
     background-attachment: fixed;
+    text-align: center;
 }
 
-#red-ballon{
+.red-ballon{
+    display: inline-block;
     background-color: #db0000;
     border-radius: 80%;
     width: 60px;
@@ -11,7 +13,7 @@ body{
     position: relative;
 
 }
-#red-ballon::after{
+.red-ballon::after{
     content: '▲';
     position: absolute;
     bottom:-10px;
