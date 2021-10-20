@@ -4,22 +4,32 @@ body{
     text-align: center;
 }
 
-.red-ballon{
+.red-balloon{
     display: inline-block;
-    background-color: #db0000;
-    border-radius: 80%;
     width: 60px;
     height: 70px;
+    margin: 10px;
+    background-color: #ba181b;
+    border-radius: 80%;
     position: relative;
-
+    box-shadow: inset -5px -5px 0 #a4161a;    
 }
-.red-ballon::after{
+
+.red-balloon::after{
     content: '▲';
     position: absolute;
     bottom:-10px;
     text-align: center;
     display: block;
     width: 100%;
-    color: #db0000;
+    color: #a4161a;
+}
 
+.red-balloon::before{
+    content:'';
+    position: absolute;
+    height: 70px;
+    width: 1px;
+    background-color: #E8D2FF;
+    top: 70px;
 }
